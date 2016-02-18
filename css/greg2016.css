@@ -1,12 +1,18 @@
 
 html, body{
 font-family: 'Raleway', sans-serif;
+  overflow-x:hidden;
 
 }
+
 h1, h2{
 	text-align: center;
 	font-size:7em;
 	font-weight: 100;
+}
+
+.container-fluid{
+  padding:2em;
 }
 
 h2{
@@ -22,17 +28,18 @@ footer{
 	position: fixed;
 	bottom:0;
 	width:100%;
+      background: rgba(255,255,255, .9);
 }
 
 ul.gregNav{
 
-	width:445px;
+	width:495px;
 	margin:0 auto;
 }
 ul.gregNav li{
-	list-style: none;
-	float:left;
-	padding:2em;
+    list-style: none;
+    float: left;
+    padding: 1.5em;
 }
 
 ul.gregNav li:last-child{
@@ -45,7 +52,7 @@ ul.gregNav li:first-child{
 
 .view{
   position: absolute;
-  top: 100px;
+  top: 0;
   width: 100%;
   transition: 300ms;
 }
@@ -78,12 +85,19 @@ ul.gregNav li:first-child{
 }
 
 /* Second animation*/
+.second{
+    background: #1A6EC5;
+    color:#fff;
+
+}
 .second .view.ng-enter{
   left: 100%;
+
 }
 
 .second .view.ng-enter.ng-enter-active{
   left: 0%;
+
 }
 
 .second .view.ng-leave{
@@ -95,6 +109,12 @@ ul.gregNav li:first-child{
 }
 
 /* Third animation*/
+
+
+.third{
+    background: #409A92;
+    color: #fff;
+}
 .third .view.ng-enter{
   top: 100%;
 }
@@ -109,4 +129,8 @@ ul.gregNav li:first-child{
 
 .third .view.ng-leave.ng-leave-active{
   top: -100%;
+}
+
+img{
+  width:80%;
 }

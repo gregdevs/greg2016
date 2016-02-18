@@ -9,36 +9,27 @@ gregApp.controller('workCtrl', function($scope){
 	$scope.work = [
 
 		{
-			product: "Running Mates",
+			product: "Oscars Brackets",
 			description:"Lorem ipsum dolor sit amet, mauris ac lacus vel pellentesque nulla augue, nec massa eget, pede ad odio liber",
-			thumb:"",
+			thumb:"thumb1.jpg",
 			url:"http://abcnews.go.com/Politics/fullpage/running-mates-2016-presidential-candidates-spouses-36167995",
 			tech:"AngularJS, JSON",
 			client:"Disney / ABC News"
 
 		},
 		{
-			product: "Oscars Brackets",
+			product: "Running Mates",
 			description:"Lorem ipsum dolor sit amet, mauris ac lacus vel pellentesque nulla augue, nec massa eget, pede ad odio liber",
-			thumb:"",
+			thumb:"thumb2.jpg",
 			url:"http://abcnews.go.com/Politics/fullpage/running-mates-2016-presidential-candidates-spouses-36167995",
 			tech:"AngularJS, JSON",
 			client:"Disney / ABC News"
 
-		},
+		},		
 		{
 			product: "DeepDive Microtool",
 			description:"Lorem ipsum dolor sit amet, mauris ac lacus vel pellentesque nulla augue, nec massa eget, pede ad odio liber",
-			thumb:"",
-			url:"http://abcnews.go.com/Politics/fullpage/running-mates-2016-presidential-candidates-spouses-36167995",
-			tech:"AngularJS, JSON",
-			client:"Disney / ABC News"
-
-		},
-		{
-			product: "GMA 40",
-			description:"Lorem ipsum dolor sit amet, mauris ac lacus vel pellentesque nulla augue, nec massa eget, pede ad odio liber",
-			thumb:"",
+			thumb:"thumb3.jpg",
 			url:"http://abcnews.go.com/Politics/fullpage/running-mates-2016-presidential-candidates-spouses-36167995",
 			tech:"AngularJS, JSON",
 			client:"Disney / ABC News"
@@ -47,7 +38,7 @@ gregApp.controller('workCtrl', function($scope){
 		{
 			product: "Notesday",
 			description:"Lorem ipsum dolor sit amet, mauris ac lacus vel pellentesque nulla augue, nec massa eget, pede ad odio liber",
-			thumb:"",
+			thumb:"thumb4.jpg",
 			url:"http://abcnews.go.com/Politics/fullpage/running-mates-2016-presidential-candidates-spouses-36167995",
 			tech:"AngularJS, JSON",
 			client:"Disney / ABC News"
@@ -56,7 +47,7 @@ gregApp.controller('workCtrl', function($scope){
 		{
 			product: "Before/After Tool",
 			description:"Lorem ipsum dolor sit amet, mauris ac lacus vel pellentesque nulla augue, nec massa eget, pede ad odio liber",
-			thumb:"",
+			thumb:"thumb4.jpg",
 			url:"http://abcnews.go.com/Politics/fullpage/running-mates-2016-presidential-candidates-spouses-36167995",
 			tech:"AngularJS, JSON",
 			client:"Disney / ABC News"
@@ -65,7 +56,7 @@ gregApp.controller('workCtrl', function($scope){
 		{
 			product: "In A Minute",
 			description:"Lorem ipsum dolor sit amet, mauris ac lacus vel pellentesque nulla augue, nec massa eget, pede ad odio liber",
-			thumb:"",
+			thumb:"thumb5.jpg",
 			url:"http://abcnews.go.com/Politics/fullpage/running-mates-2016-presidential-candidates-spouses-36167995",
 			tech:"AngularJS, JSON",
 			client:"Disney / ABC News"
