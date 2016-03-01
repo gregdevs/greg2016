@@ -2,7 +2,7 @@
 
 <div class="row">
 
-<div class="col-sm-4 buckets" ng-repeat="item in work">
+<div class="col-sm-4 buckets" ng-repeat="item in work" data-id="{{item.id}}" ng-click="showProject($event);">
 	<img ng-src="img/{{item.thumb}}"/>
 	<h3>{{item.product}}</h3>
 	<p>{{item.description}}</p>

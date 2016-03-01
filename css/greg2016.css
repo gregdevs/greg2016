@@ -16,7 +16,7 @@ h3{
     text-transform: uppercase;
 }
 .container-fluid{
-  padding:2em;
+  /*padding:0;*/
 }
 
 h2{
@@ -34,6 +34,8 @@ footer{
 	width:100%;
       background: rgba(255,255,255, .9);
 }
+
+
 
 ul.gregNav{
 
@@ -66,6 +68,58 @@ ul.gregNav li:first-child{
 .buckets{
  padding:2em;
  text-align: center;	
+}
+
+.buckets:hover{
+  cursor:pointer;
+}
+
+.carouselwrapper{
+  width:100%;
+  height:200px;
+}
+
+.carouselwrapper li{
+    width: 33%!important;
+    padding: 1em!important;
+}
+
+.carouselwrapper li:first-child {
+padding-left:0!important;
+  }
+.item img{
+  width:100%;
+} 
+
+
+.rightcol{
+  background:#333;
+  height:100%;
+  min-height:1500px;
+  z-index: 9;
+}
+
+
+.directory{
+  margin:1em;
+  padding:0;
+  color:#c4c4c4;
+  font-weight: 100;
+  list-style: none;
+}
+
+.directory li{
+  margin-bottom:1.4em;
+}
+
+.directory li a{
+  color:#fff;
+  text-decoration: none;
+}
+.activeproject{
+  font-weight:bold;
+  color:#fff;
+  font-size: 1.2em;
 }
 
 
@@ -133,6 +187,25 @@ ul.gregNav li:first-child{
 
 .third .view.ng-leave.ng-leave-active{
   top: -100%;
+}
+
+
+
+/*fourth*/
+.fourth .view.ng-enter{
+  right: 100%;
+}
+
+.fourth .view.ng-enter.ng-enter-active{
+  right: 0%;
+}
+
+.fourth .view.ng-leave{
+  right: 0%;
+}
+
+.fourth .view.ng-leave.ng-leave-active{
+  right: -100%;
 }
 
 img{

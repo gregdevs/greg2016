@@ -1,0 +1,35 @@
+<div class="container-fluid thirdblock">
+
+<div class="row">
+<div class="col-sm-10">
+   <h2 style="text-align: left;">{{project.product}}</h2>
+<ul rn-carousel class="carouselwrapper" rn-carousel-controls>
+  <li ng-repeat="image in project.screenshots">
+    <div class="item"><img ng-src="projects/{{projectid}}/{{image}}"/></div>
+  </li>
+</ul>
+	<!-- whatisit -->
+	<div id="whatisit">
+		<h3>What is it?</h3>
+	    <p ng-bind-html="project.whatisit | trusthtml">{{project.whatisit}}</p>
+    </div>
+	<!-- howitworks -->
+	<div id="howitworks">
+		<h3>How does it work?</h3>
+	    <p ng-bind-html="project.howitworks | trusthtml">{{project.howitworks}}</p>
+    </div>
+	<!-- techused -->
+	<div id="howitworks">
+		<h3>Technologies Used</h3>
+	    <ul>
+	    	<li ng-repeat="item in project.techused">{{item}}</li>
+	    </ul>
+    </div>
+
+<br/>
+  <button type="button" class="btn btn-primary btn-lg">Launch Product</button>
+
+</div>
+
+
+</div>

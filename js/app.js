@@ -1,4 +1,4 @@
-var gregApp = angular.module('gregApp', ['ngRoute', 'ngAnimate']);
+var gregApp = angular.module('gregApp', ['ngRoute', 'ngAnimate', 'angular-carousel']);
 gregApp.config(function($routeProvider){
 	$routeProvider
 	.when('/', {
@@ -15,8 +15,17 @@ gregApp.config(function($routeProvider){
 		templateUrl: 'views/work.html',
 		animation: 'third',
 		controller: 'workCtrl'
+	})
+	.when('/work/projects/:id',{
+		templateUrl:'views/project.html',
+		animation: 'fourth',
+		controller:'projectCtrl'
 	});
 })
 
-
+gregApp.filter('trusthtml', ['$sce', function($sce) {
+  return function(t) {
+    return $sce.trustAsHtml(t)
+  }
+}]);
 
